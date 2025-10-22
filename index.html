@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moda360.store — Jeans para hombre y mujer</title>
+  <meta name="description" content="Moda360.store — Jeans urbanos, cómodos y auténticos para él y para ella. Envíos rápidos y cambios fáciles.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    :root {
+      --color-principal: #212529;
+      --color-secundario: #6c757d;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      color: var(--color-principal);
+    }
+    .navbar-brand span {
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .hero {
+      background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+      padding: 6rem 0;
+    }
+    .product-card img {
+      height: 280px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+    .benefit-icon {
+      font-size: 2rem;
+      color: var(--color-principal);
+    }
+    footer {
+      background: #f8f9fa;
+      padding: 2rem 0;
+      font-size: 0.9rem;
+      color: var(--color-secundario);
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <div class="bg-dark text-white rounded-2 px-3 py-2 me-2 fw-bold">M</div>
+      <span>Moda360.store</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="menuNav" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menuNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hombre">Hombre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mujer">Mujer</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+      </ul>
+      <a href="#tienda" class="btn btn-dark ms-lg-3">Comprar ahora</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="inicio" class="hero text-center text-md-start">
+  <div class="container mt-5 pt-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="display-5 fw-bold">Jeans que se ajustan a tu estilo.</h1>
+        <p class="lead text-muted mb-4">Moda urbana, cómoda y auténtica para él y para ella. Envíos a todo el país y cambio sencillo.</p>
+        <a href="#tienda" class="btn btn-dark btn-lg">Explora la colección →</a>
+      </div>
+      <div class="col-md-6 text-center mt-4 mt-md-0">
+        <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=800" class="img-fluid rounded shadow" alt="Modelos usando jeans">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section id="tienda" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-center">Nuestros favoritos del mes</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm product-card">
+          <img src="https://images.unsplash.com/photo-1618354691373-4754e5c3c356?w=600" alt="Jeans Slim Fit Azul">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Jeans Slim Fit Azul</h5>
+            <p class="card-text text-secondary">$60.00</p>
+            <button class="btn btn-dark w-100">Agregar al carrito</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm product-card">
+          <img src="https://images.unsplash.com/photo-1520975918311-88c3e88d3be1?w=600" alt="Jeans Recto Negro">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Jeans Recto Negro</h5>
+            <p class="card-text text-secondary">$65.00</p>
+            <button class="btn btn-dark w-100">Agregar al carrito</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm product-card">
+          <img src="https://images.unsplash.com/photo-1618354691373-4754e5c3c356?w=600" alt="Jeans Tiro Alto Azul Claro">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Jeans Tiro Alto Azul Claro</h5>
+            <p class="card-text text-secondary">$58.00</p>
+            <button class="btn btn-dark w-100">Agregar al carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-center">Por qué elegirnos</h2>
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <div class="benefit-icon mb-3">🚚</div>
+        <h5>Envíos rápidos</h5>
+        <p class="text-secondary">Recibe tu pedido en tiempo récord.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="benefit-icon mb-3">💳</div>
+        <h5>Pagos seguros</h5>
+        <p class="text-secondary">Transacciones cifradas y confiables.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="benefit-icon mb-3">🔁</div>
+        <h5>Cambios fáciles</h5>
+        <p class="text-secondary">Política clara y sin complicaciones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-center">Lo que dicen nuestros clientes</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <p class="text-secondary">“Excelente calidad y tallas perfectas. Volveré a comprar sin duda.”</p>
+          <p class="fw-semibold mb-0">— Camila R.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <p class="text-secondary">“Llegaron rápido y quedan increíbles. Atención al cliente muy amable.”</p>
+          <p class="fw-semibold mb-0">— Andrés P.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="bg-dark text-white py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3">Descubre tu nuevo jean favorito hoy</h2>
+    <p class="mb-4">Entra a la tienda y encuentra el corte perfecto para ti.</p>
+    <a href="#tienda" class="btn btn-light btn-lg">Ir a la tienda</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container text-center">
+    <div class="mb-2">
+      <strong>Moda360.store</strong> — Jeans urbanos para hombre y mujer
+    </div>
+    <div class="mb-2">
+      <a href="#" class="text-secondary me-3">Términos</a>
+      <a href="#" class="text-secondary me-3">Privacidad</a>
+      <a href="#" class="text-secondary">Ayuda</a>
+    </div>
+    <div>
+      <small>© <span id="year"></span> Moda360.store — Todos los derechos reservados.</small>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
